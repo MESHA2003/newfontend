@@ -1,0 +1,61 @@
+.diary-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    font-family: 'Georgia', serif;
+    overflow: hidden;
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #4a3e3b;
+    height: 100%;
+  }
+  
+  .diary-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .diary-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+  
+  .start-button {
+    padding: 0.7rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+  }
+  
+  .diary-list-section {
+    padding: 20px;
+    height: 100%;
+    background: #f8f9fa;
+    overflow-y: auto;
+    border-left: 2px solid #ddd;
+  }
+  
+  .scrollable-container {
+    max-height: 90vh;
+    overflow-y: auto;
+    padding-right: 15px;
+  }
+  
+  .diary-list-section::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .diary-list-section::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .diary-list-section::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
